@@ -1,69 +1,32 @@
-# React + TypeScript + Vite
+#  Diseño Karla – Sitio Web de Donas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto desarrollado con **React**, **TypeScript** y **Bootstrap**, que muestra un sitio web responsivo para una tienda de donas.  
+Incluye encabezado, contenido principal, sección de productos/servicios y pie de página con iconos de redes sociales.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Características
 
-## Expanding the ESLint configuration
+- **Encabezado (Header)** con logotipo y menú de navegación responsivo.
+- **Contenido principal (Main)** con título y descripción atractiva.
+- **Sección de productos (Section)** con tarjetas de presentación de servicios/productos.
+- **Pie de página (Footer)** con enlaces e iconos de redes sociales.
+- **Diseño responsivo** adaptado a:
+  -  Móviles (≤ 600px)
+  -  Tablets (601px – 1024px)
+  -  Ordenadores (≥ 1024px)
+- **Uso de Bootstrap Icons** para iconografía.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+##  Tecnologías utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- [React](https://reactjs.org/) – Librería para la interfaz de usuario.
+- [TypeScript](https://www.typescriptlang.org/) – Superset de JavaScript tipado.
+- [Bootstrap 5](https://getbootstrap.com/) – Framework de estilos y utilidades responsivas.
+- [Bootstrap Icons](https://icons.getbootstrap.com/) – Paquete de iconos vectoriales.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+##  Estructura del proyecto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
