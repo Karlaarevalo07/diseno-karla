@@ -4,7 +4,6 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg bg-donas border-bottom">
-
         <div className="container">
           <a className="navbar-brand d-flex align-items-center gap-2" href="#">
             <img src={logo} alt="Logo Donas" width={38} height={38} />
@@ -30,9 +29,6 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#productos">Productos</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#servicios">Servicios</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contacto">Contacto</a>

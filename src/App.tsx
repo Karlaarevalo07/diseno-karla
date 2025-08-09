@@ -10,7 +10,6 @@ function App() {
       <Header />
       <Main />
       <Section />
-      {/* puedes agregar más secciones aquí */}
       <Footer />
     </div>
   );
