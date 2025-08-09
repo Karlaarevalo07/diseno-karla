@@ -49,6 +49,16 @@ Se busca que el diseño se adapte correctamente a diferentes tamaños de pantall
 - [Netlify](https://www.netlify.com/) – Plataforma de despliegue.
 
 ---
+## Capturas de pantalla
+
+### Versión escritorio (>1024px)
+![Versión escritorio](capturas/image-2.png) 
+
+### Versión móvil (≤600px)
+![Versión móvil](capturas/image.png)
+
+### Versión tablet (601px – 1024px)
+![Versión tablet](capturas/image-1.png)
 
 
 ---
@@ -64,20 +74,8 @@ Se busca que el diseño se adapte correctamente a diferentes tamaños de pantall
 
   npm run dev
 
-## Capturas de pantalla
+---
 
-## Versión móvil (≤600px)
-![alt text](image.png)
-
-
-
-## Versión escritorio (>1024px)
-![alt text](image-2.png)
-
-
-
-## Versión tablet (601px – 1024px)
-![alt text](image-1.png)
 
 
 
