@@ -20,24 +20,6 @@ const Footer = () => {
           >
             <i className="bi bi-facebook"></i>
           </a>
-          <a
-            className="text-dark"
-            href="https://instagram.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Instagram"
-          >
-            <i className="bi bi-instagram"></i>
-          </a>
-          <a
-            className="text-dark"
-            href="https://x.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="X"
-          >
-            <i className="bi bi-twitter-x"></i>
-          </a>
         </div>
       </div>
     </div>
