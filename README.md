@@ -51,14 +51,16 @@ Se busca que el diseño se adapte correctamente a diferentes tamaños de pantall
 ---
 ## Capturas de pantalla
 
-### Versión escritorio (>1024px)
-![Versión escritorio](diseno-karla\src\capturas\image-2.png) 
 
-### Versión móvil (≤600px)
-![Versión móvil](diseno-karla\src\capturas\image.png)
+###  Versión escritorio (>1024px)
+![Versión escritorio](src/capturas/image-2.png)
 
-### Versión tablet (601px – 1024px)
-![Versión tablet](diseno-karla\src\capturas\image-1.png)
+###  Versión móvil (≤600px)
+![Versión móvil](src/capturas/image.png)
+
+###  Versión tablet (601px – 1024px)
+![Versión tablet](src/capturas/image-1.png)
+
 
 
 ---
