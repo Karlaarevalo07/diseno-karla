@@ -53,14 +53,13 @@ Se busca que el diseño se adapte correctamente a diferentes tamaños de pantall
 
 
 ###  Versión escritorio (>1024px)
-![Versión escritorio](src/capturas/image-2.png)
+![Versión escritorio](src/assets/image-2.png)
 
 ###  Versión móvil (≤600px)
-![Versión móvil](src/capturas/image.png)
+![Versión móvil](src/assets/image.png)
 
 ###  Versión tablet (601px – 1024px)
-![Versión tablet](src/capturas/image-1.png)
-
+![Versión tablet](src/assets/image-1.png)
 
 
 ---
